@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="查看adb version首先进入adb安装目录或者配置adb环境变量，运行： 1$ adb version 查看模拟器nox_adb version首先进入模拟器bin目录，运行： 1$ nox_adb version 如果两者版本不同，可以将adb.exe复制到模拟器bin目录下，并重命名为nox_adb.exe，重新查看版本就会看到版本号一致了，然后运行模拟器，还是在bin目录输入 1$ n">
+<meta name="description" content="首先安装camera插件进入cordova项目路径，运行一下命令安装插件 1$ cordova plugin add cordova-plugin-camera 然后重新打包后window里面就能拿到window.navigator.camera，可以在控制台可以直接打印看到camera对象，在需要调用相机的地方加上对应方法即可。12345678910&amp;lt;div @click=&quot;cameraT">
 <meta property="og:type" content="article">
-<meta property="og:title" content="adb连接夜神模拟器">
-<meta property="og:url" content="http://yoursite.com/2019/03/25/adb连接夜神模拟器/index.html">
+<meta property="og:title" content="cordova调式camera">
+<meta property="og:url" content="http://yoursite.com/2019/03/26/cordova调试camera/index.html">
 <meta property="og:site_name" content="all be alone">
-<meta property="og:description" content="查看adb version首先进入adb安装目录或者配置adb环境变量，运行： 1$ adb version 查看模拟器nox_adb version首先进入模拟器bin目录，运行： 1$ nox_adb version 如果两者版本不同，可以将adb.exe复制到模拟器bin目录下，并重命名为nox_adb.exe，重新查看版本就会看到版本号一致了，然后运行模拟器，还是在bin目录输入 1$ n">
+<meta property="og:description" content="首先安装camera插件进入cordova项目路径，运行一下命令安装插件 1$ cordova plugin add cordova-plugin-camera 然后重新打包后window里面就能拿到window.navigator.camera，可以在控制台可以直接打印看到camera对象，在需要调用相机的地方加上对应方法即可。12345678910&amp;lt;div @click=&quot;cameraT">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-03-25T10:55:14.701Z">
+<meta property="og:updated_time" content="2019-03-27T01:18:27.815Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="adb连接夜神模拟器">
-<meta name="twitter:description" content="查看adb version首先进入adb安装目录或者配置adb环境变量，运行： 1$ adb version 查看模拟器nox_adb version首先进入模拟器bin目录，运行： 1$ nox_adb version 如果两者版本不同，可以将adb.exe复制到模拟器bin目录下，并重命名为nox_adb.exe，重新查看版本就会看到版本号一致了，然后运行模拟器，还是在bin目录输入 1$ n">
+<meta name="twitter:title" content="cordova调式camera">
+<meta name="twitter:description" content="首先安装camera插件进入cordova项目路径，运行一下命令安装插件 1$ cordova plugin add cordova-plugin-camera 然后重新打包后window里面就能拿到window.navigator.camera，可以在控制台可以直接打印看到camera对象，在需要调用相机的地方加上对应方法即可。12345678910&amp;lt;div @click=&quot;cameraT">
 
 
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/03/25/adb连接夜神模拟器/">
+  <link rel="canonical" href="http://yoursite.com/2019/03/26/cordova调试camera/">
 
 
 
 
 
-  <title>adb连接夜神模拟器 | all be alone</title>
+  <title>cordova调式camera | all be alone</title>
   
 
 
@@ -232,7 +232,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/25/adb连接夜神模拟器/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/26/cordova调试camera/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Kanata">
@@ -249,7 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">adb连接夜神模拟器</h1>
+          <h1 class="post-title" itemprop="name headline">cordova调式camera</h1>
         
 
         <div class="post-meta">
@@ -261,8 +261,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-25T18:46:08+08:00">
-                2019-03-25
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-26T17:12:55+08:00">
+                2019-03-26
               </time>
             
 
@@ -299,16 +299,11 @@
       
 
       
-        <h3 id="查看adb-version"><a href="#查看adb-version" class="headerlink" title="查看adb version"></a>查看adb version</h3><p>首先进入adb安装目录或者配置adb环境变量，运行：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ adb version</span><br></pre></td></tr></table></figure>
-<h3 id="查看模拟器nox-adb-version"><a href="#查看模拟器nox-adb-version" class="headerlink" title="查看模拟器nox_adb version"></a>查看模拟器nox_adb version</h3><p>首先进入模拟器bin目录，运行：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ nox_adb version</span><br></pre></td></tr></table></figure>
-<p>如果两者版本不同，可以将adb.exe复制到模拟器bin目录下，并重命名为nox_adb.exe，重新查看版本就会看到版本号一致了，然后运行模拟器，还是在bin目录输入</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ nox_adb.exe connect 127.0.0.1:62001</span><br></pre></td></tr></table></figure>
-<p>会看到控制台输出</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ already connected to 127.0.0.1:62001</span><br></pre></td></tr></table></figure>
-<p>至此就可以直接cordova run android打包并在模拟器中直接运行了</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cordova run android</span><br></pre></td></tr></table></figure>
+        <h3 id="首先安装camera插件"><a href="#首先安装camera插件" class="headerlink" title="首先安装camera插件"></a>首先安装camera插件</h3><p>进入cordova项目路径，运行一下命令安装插件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cordova plugin add cordova-plugin-camera</span><br></pre></td></tr></table></figure>
+<h3 id="然后重新打包后window里面就能拿到window-navigator-camera，可以在控制台可以直接打印看到camera对象，在需要调用相机的地方加上对应方法即可。"><a href="#然后重新打包后window里面就能拿到window-navigator-camera，可以在控制台可以直接打印看到camera对象，在需要调用相机的地方加上对应方法即可。" class="headerlink" title="然后重新打包后window里面就能拿到window.navigator.camera，可以在控制台可以直接打印看到camera对象，在需要调用相机的地方加上对应方法即可。"></a>然后重新打包后window里面就能拿到window.navigator.camera，可以在控制台可以直接打印看到camera对象，在需要调用相机的地方加上对应方法即可。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;div @click=<span class="string">"cameraTakePicture"</span> class=<span class="string">"real-play"</span>&gt;手机拍摄&lt;/div&gt;</span><br><span class="line"><span class="function"><span class="title">cameraTakePicture</span></span>() &#123;</span><br><span class="line">  const cameraOptions = &#123;</span><br><span class="line">    quality: 50,</span><br><span class="line">    sourceType: 1,</span><br><span class="line">    destinationType: window.navigator.camera.DestinationType.DATA_URL,</span><br><span class="line">  &#125;;</span><br><span class="line">  // 此处是官网提供的调用方法</span><br><span class="line">  window.navigator.camera.getPicture(this.cameraSuccess, this.cameraError, cameraOptions);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>相关链接：<br><a href="https://www.jianshu.com/p/2370548b25ab" target="_blank" rel="noopener">https://www.jianshu.com/p/2370548b25ab</a><br><a href="https://github.com/apache/cordova-plugin-camera#camera-getPicture-examples" target="_blank" rel="noopener">https://github.com/apache/cordova-plugin-camera#camera-getPicture-examples</a></p>
+
       
     </div>
     
@@ -332,8 +327,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/03/09/cordova打包vue项目用模拟器调试/" rel="next" title="使用cordova打包vue项目">
-                <i class="fa fa-chevron-left"></i> 使用cordova打包vue项目
+              <a href="/2019/03/25/adb连接夜神模拟器/" rel="next" title="adb连接夜神模拟器">
+                <i class="fa fa-chevron-left"></i> adb连接夜神模拟器
               </a>
             
           </div>
@@ -341,10 +336,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/03/26/cordova调试camera/" rel="prev" title="cordova调式camera">
-                cordova调式camera <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -467,7 +458,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#查看adb-version"><span class="nav-number">1.</span> <span class="nav-text">查看adb version</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看模拟器nox-adb-version"><span class="nav-number">2.</span> <span class="nav-text">查看模拟器nox_adb version</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#首先安装camera插件"><span class="nav-number">1.</span> <span class="nav-text">首先安装camera插件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#然后重新打包后window里面就能拿到window-navigator-camera，可以在控制台可以直接打印看到camera对象，在需要调用相机的地方加上对应方法即可。"><span class="nav-number">2.</span> <span class="nav-text">然后重新打包后window里面就能拿到window.navigator.camera，可以在控制台可以直接打印看到camera对象，在需要调用相机的地方加上对应方法即可。</span></a></li></ol></div>
             
 
           </div>
